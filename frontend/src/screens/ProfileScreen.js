@@ -1,3 +1,9 @@
+// Reference
+// https://reactjs.org/
+// https://www.npmjs.com/package/react-bootstrap
+// https://www.npmjs.com/package/react-router-bootstrap
+// https://www.npmjs.com/package/react-redux
+
 import React, { useState, useEffect } from 'react'
 import { Table, Form, Button, Row, Col } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'

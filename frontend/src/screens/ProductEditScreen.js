@@ -1,3 +1,10 @@
+// Reference
+// https://reactjs.org/
+// https://www.npmjs.com/package/react-bootstrap
+// https://www.npmjs.com/package/axios
+// https://www.npmjs.com/package/react-router-dom
+// https://www.npmjs.com/package/react-redux
+
 import axios from 'axios'
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
@@ -16,6 +23,7 @@ const ProductEditScreen = ({ match, history }) => {
   const [brand, setBrand] = useState('')
   const [category, setCategory] = useState('')
   const [countInStock, setCountInStock] = useState(0)
+  const [author, setAuthor] = useState('')
   const [description, setDescription] = useState('')
   const [uploading, setUploading] = useState(false)
 
@@ -43,6 +51,7 @@ const ProductEditScreen = ({ match, history }) => {
         setBrand(product.brand)
         setCategory(product.category)
         setCountInStock(product.countInSock)
+        setAuthor(product.author)
         setDescription(product.description)
       }
     }
@@ -81,6 +90,7 @@ const ProductEditScreen = ({ match, history }) => {
         image,
         brand,
         category,
+        author,
         description,
         countInStock,
       })
@@ -137,10 +147,10 @@ const ProductEditScreen = ({ match, history }) => {
             </Form.Group>
 
             <Form.Group controlId='brand'>
-              <Form.Label className= 'mt-2'>Brand</Form.Label>
+              <Form.Label className= 'mt-2'>Publisher</Form.Label>
               <Form.Control
                 type='text'
-                placeholder='Enter brand'
+                placeholder='Enter publisher'
                 value={brand}
                 onChange={(e) => setBrand(e.target.value)}
               ></Form.Control>
@@ -161,6 +171,15 @@ const ProductEditScreen = ({ match, history }) => {
                 placeholder='Enter category'
                 value={category}
                 onChange={(e) => setCategory(e.target.value)}
+              ></Form.Control>
+            </Form.Group>
+            <Form.Group controlId='author'>
+              <Form.Label className= 'mt-2'>Author</Form.Label>
+              <Form.Control
+                type='text'
+                placeholder='Enter author'
+                value={author}
+                onChange={(e) => setAuthor(e.target.value)}
               ></Form.Control>
             </Form.Group>
             <Form.Group controlId='description'>

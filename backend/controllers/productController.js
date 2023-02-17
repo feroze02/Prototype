@@ -1,3 +1,6 @@
+// Reference
+// https://www.npmjs.com/package/express-async-handler
+
 import asyncHandler from 'express-async-handler'
 import Product from '../models/productModel.js'
 
@@ -64,10 +67,11 @@ const createProduct = asyncHandler(async (req, res) => {
     price: 0,
     user: req.user._id,
     image: '/images/sample.jpg',
-    brand: 'Sample brand',
+    brand: 'Sample publisher',
     category: 'Sample category',
     countInStock: 0,
     numReviews: 0,
+    author: 'Sample author',
     description: 'Sample description',
   })
 
@@ -86,6 +90,7 @@ const updateProduct = asyncHandler(async (req, res) => {
     description,
     image,
     brand,
+    author,
     category,
     countInStock,
   } = req.body
@@ -98,6 +103,7 @@ const updateProduct = asyncHandler(async (req, res) => {
     product.description = description
     product.image = image
     product.brand = brand
+    product.author = author
     product.category = category
     product.countInStock = countInStock
 

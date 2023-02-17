@@ -1,3 +1,9 @@
+// Reference
+// https://reactjs.org/
+// https://www.npmjs.com/package/react-bootstrap
+// https://www.npmjs.com/package/react-router-dom
+// https://www.npmjs.com/package/react-redux
+
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
@@ -79,6 +85,9 @@ const { userInfo } = userLogin
                 </ListGroup.Item>
                 <ListGroup.Item>
                     Price: ${product.price}
+                </ListGroup.Item>
+                <ListGroup.Item>
+                    Author: {product.author}
                 </ListGroup.Item>
                 <ListGroup.Item>
                     Description: {product.description}

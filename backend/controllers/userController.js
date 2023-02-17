@@ -1,3 +1,6 @@
+// Reference
+// https://www.npmjs.com/package/express-async-handler
+
 import asyncHandler from 'express-async-handler'
 import generateToken from '../utils/generateToken.js'
 import User from '../models/userModel.js'

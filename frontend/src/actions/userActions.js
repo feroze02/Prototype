@@ -1,3 +1,6 @@
+// Reference
+// https://www.npmjs.com/package/axios
+
 import axios from 'axios'
 import {
     USER_DETAILS_FAIL,

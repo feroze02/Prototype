@@ -1,3 +1,7 @@
+// Reference
+// https://reactjs.org/
+// https://www.npmjs.com/package/react-bootstrap
+
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 

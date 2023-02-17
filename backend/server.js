@@ -1,3 +1,10 @@
+// Reference
+// https://www.npmjs.com/package/dotenv
+// https://www.npmjs.com/package/colors
+// http://expressjs.com/
+// https://www.npmjs.com/package/path
+// https://www.npmjs.com/package/morgan
+
 import path from 'path'
 import express from 'express'
 import dotenv from 'dotenv'

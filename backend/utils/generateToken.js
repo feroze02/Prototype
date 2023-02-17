@@ -1,3 +1,6 @@
+// Reference
+// https://jwt.io/
+
 import jwt from 'jsonwebtoken'
 
 const generateToken = (id) => {

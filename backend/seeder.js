@@ -1,3 +1,8 @@
+// Reference
+// https://mongoosejs.com/
+// https://www.npmjs.com/package/dotenv
+// https://www.npmjs.com/package/colors
+
 import mongoose from 'mongoose'
 import dotenv from 'dotenv'
 import colors from 'colors'

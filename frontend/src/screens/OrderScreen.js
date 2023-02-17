@@ -1,3 +1,11 @@
+// Reference
+// https://reactjs.org/
+// https://www.npmjs.com/package/react-bootstrap
+// https://www.npmjs.com/package/react-router-dom
+// https://www.npmjs.com/package/react-redux
+// https://www.npmjs.com/package/axios
+// https://www.npmjs.com/package/react-paypal-button-v2
+
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { PayPalButton } from 'react-paypal-button-v2'

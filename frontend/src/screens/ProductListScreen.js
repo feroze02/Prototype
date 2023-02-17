@@ -1,3 +1,9 @@
+// Reference
+// https://reactjs.org/
+// https://www.npmjs.com/package/react-bootstrap
+// https://www.npmjs.com/package/react-router-bootstrap
+// https://www.npmjs.com/package/react-redux
+
 import React, { useEffect } from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Table, Button, Row, Col } from 'react-bootstrap'
@@ -93,7 +99,7 @@ const ProductListScreen = ({ history, match }) => {
                 <th>NAME</th>
                 <th>PRICE</th>
                 <th>CATEGORY</th>
-                <th>BRAND</th>
+                <th>Publisher</th>
                 <th></th>
               </tr>
             </thead>

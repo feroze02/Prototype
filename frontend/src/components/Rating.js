@@ -1,3 +1,8 @@
+// Reference
+// https://reactjs.org/
+// https://www.npmjs.com/package/prop-types
+
+
 import React from 'react'
 import PropTypes from 'prop-types'
 

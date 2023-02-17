@@ -1,3 +1,7 @@
+// Reference
+// https://reactjs.org/
+// https://www.npmjs.com/package/react-bootstrap
+
 import React from 'react'
 import { Alert } from 'react-bootstrap'
 

@@ -1,3 +1,6 @@
+// Reference
+// https://mongoosejs.com/
+
 import mongoose from 'mongoose'
 import bcrypt from 'bcryptjs'
 

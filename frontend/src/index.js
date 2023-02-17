@@ -1,3 +1,8 @@
+// Reference
+// https://reactjs.org/
+// https://www.npmjs.com/package/react-dom
+// https://www.npmjs.com/package/react-redux
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux'

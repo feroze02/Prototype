@@ -1,3 +1,7 @@
+// Reference
+// https://www.npmjs.com/package/express-async-handler
+// https://jwt.io/
+
 import jwt from 'jsonwebtoken'
 import asyncHandler from 'express-async-handler'
 import User from '../models/userModel.js'

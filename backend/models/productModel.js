@@ -1,3 +1,6 @@
+// Reference
+// https://mongoosejs.com/
+
 import mongoose from 'mongoose'
 
 const reviewSchema = mongoose.Schema(
@@ -36,6 +39,10 @@ const productSchema = mongoose.Schema(
         required: true,
       },
       category: {
+        type: String,
+        required: true,
+      },
+      author: {
         type: String,
         required: true,
       },

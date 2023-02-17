@@ -1,3 +1,8 @@
+// Reference
+// https://reactjs.org/
+// https://www.npmjs.com/package/react-helmet
+
+
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
@@ -13,8 +18,8 @@ const Meta = ({ title, description, keywords }) => {
 
 Meta.defaultProps = {
   title: 'Welcome To EShop',
-  description: 'We sell the refurbished products for cheap',
-  keywords: 'electronics, buy electronics, cheap electroincs',
+  description: 'We sell the used book for cheap',
+  keywords: 'used book, buy used book, cheap used book',
 }
 
 export default Meta
